@@ -1,0 +1,42 @@
+recipe-app/
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── hooks/
+│   │   └── App.jsx
+│   │
+│   ├── package.json
+│   └── vite.config.js
+│
+├── backend/
+│   ├── app/
+│   │   ├── main.py
+│   │   │
+│   │   ├── api/
+│   │   │   ├── auth.py
+│   │   │   ├── recipes.py
+│   │   │   ├── pantry.py
+│   │   │   ├── ratings.py
+│   │   │   ├── grocery.py
+│   │   │   └── preferences.py
+│   │   │
+│   │   ├── models/
+│   │   ├── schemas/
+│   │   ├── services/
+│   │   ├── database/
+│   │   └── algorithms/
+│   │
+│   ├── requirements.txt
+│   └── .env
+│
+├── rabbitmq/
+│   └── README.md
+│
+├── docs/
+│   └── API.md
+│
+├── docker-compose.yml
+└── README.md
